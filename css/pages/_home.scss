@@ -33,15 +33,15 @@ h1, span, a {
     
 
     @media only screen and (max-width:990px) {
-       background-color: #212121;
-       height:125px;
-       right:0px;
-       left: 0px;
-       margin:0;
-       width:100%;
-       justify-content:center;
-       flex-direction: column;
-       text-align: center;
+        background-color: #212121;
+        height:125px;
+        right:0px;
+        left: 0px;
+        margin:0;
+        width:100%;
+        justify-content:center;
+        flex-direction: column;
+        text-align: center;
     }
     .name{
         padding-bottom: 45px;
@@ -356,4 +356,44 @@ left: 50px;
     border-radius: 10px;
     background-size: 50%;
     height: 90%;
+}
+
+.register{
+    position: absolute;
+    background-color: #212121;
+    width: 33%;
+    right: 0px;
+    height: 100%;
+    z-index: 2;
+    color:white;
+    padding: 50px;
+    h2{
+        margin-top:0px;
+        font-size: 30px;
+        
+    }
+}
+
+.contact-title{
+    display: flex;
+    justify-content: space-between;
+    a{
+        font-size: 15px;
+    }
+}
+
+.btn-contact{
+    display: flex;
+    margin-top: 20px;
+    a{
+        margin-left: 20px;
+        margin-bottom: 45px;
+        border-bottom:1px solid white;
+    }
+}
+
+.first-first{
+    display: flex;
+    width: 100%;
+  
 }
